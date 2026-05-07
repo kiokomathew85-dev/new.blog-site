@@ -1,24 +1,19 @@
 const blog = {
-  name: "My Blog",
-  about: "This is a blog about learning React step by step.",
-  articles: [
+  name: "My Personal Blog",
+  image: "https://via.placeholder.com/150",
+  about: "This is a blog about tech, life, and learning React.",
+  posts: [
     {
       id: 1,
-      title: "Getting Started with React",
+      title: "First Post",
       date: "May 1, 2026",
-      preview: "React helps you build reusable UI components..."
+      preview: "This is the preview of the first post."
     },
     {
       id: 2,
-      title: "Understanding Props",
+      title: "Second Post",
       date: "May 2, 2026",
-      preview: "Props let you pass data from parent to child..."
-    },
-    {
-      id: 3,
-      title: "Component-Based Design",
-      date: "May 3, 2026",
-      preview: "Breaking UI into components makes apps scalable..."
+      preview: "This is the preview of the second post."
     }
   ]
 };
